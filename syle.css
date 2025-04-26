@@ -1,0 +1,137 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    min-height: 100vh;
+    background-image: url(paint.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.main{
+    width:420px;
+    background:transparent;
+    border-radius: 50px;
+    padding: 30px 40px;
+    border: solid;
+    backdrop-filter:blur(5px);
+    color:aliceblue;
+    border:2px solid rgba(225,225,225,.2); 
+   
+}
+.main h1{
+    font-size: 38px;
+    text-align: center;
+    
+    color: rgb(0, 0, 1);
+
+}
+.input{
+    position: relative;
+    width: 100%;
+    height: 50%;
+   
+    margin: 30px 0;
+    
+    
+}
+.input input{
+    width: 100%;
+    height: 100%;
+    
+    background: transparent; 
+    border:solid;
+    outline: none;
+    border-radius: 50px;
+    border:2px solid rgba(225,225,225,.2);
+    font-size: 16px;
+    color:rgb(0, 0, 0);
+    padding:20px 45px 20px 20px;
+    
+
+}
+input::placeholder{
+    color: rgb(0, 0, 0);
+    font-weight: 5000;
+}
+.bt{
+    font-size: 20px;
+    color:rgb(0, 0, 0)
+}
+.bt:hover{
+    color:seashell
+}
+.main.end{
+    
+    
+    display:flex;
+    justify-content: space-between;
+    margin:-15px 0 15px;
+    font-size:14.5px;
+
+}
+.end label input{
+    color: rgb(255, 255, 255);
+    margin-right:3px
+}
+.end a {
+    margin-left: 50px;
+
+}
+.end a:hover {
+    text-decoration: underline;
+
+}
+.main .btn{
+    width:100%;
+    height:50px;
+    background: transparent;
+    border:none;
+    outline:none;
+    border-radius:50px;
+    background-color: white;
+    margin:10px 0 10px 0;
+    font-size: 16px;
+
+}
+.main .Register {
+    display: flex;
+    
+    justify-content: center;
+    text-align: center;
+    margin-top:20px
+
+}
+.Register a{
+    color: rgb(5, 0, 0);
+    font-weight: 600;
+    text-decoration:none;
+    position: relative;
+}
+.Register a:hover{
+    color: rgb(255, 255, 255);
+}
+.Register a::after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    right:0;
+    width: 0;
+    
+    height: 3px;
+    background-color: rgb(54, 108, 0);
+    transition: 0.5s;
+}
+.Register a:hover::after{
+    width :100%;
+}
+
+
+ 

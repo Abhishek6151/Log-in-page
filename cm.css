@@ -1,0 +1,33 @@
+body{
+    background-image: url(tree.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.a{
+    backdrop-filter: blur(8px);
+    padding: 20% 20% 20% 20%;
+    padding:50px;
+    height: 300px;
+    width: 400px;
+    border:solid ;
+    margin-top: 100px;
+    align-items: center;
+
+}
+.cd:hover{
+    color: rgb(255, 255, 255);
+}
+.cd::before{
+    content: '';
+    position: absolute;
+    bottom: 75%;
+    left:0;
+    width: 0;
+    
+    height: 3px;
+    background-color: rgb(54, 108, 0);
+    transition: 0.5s;
+}
+.cd:hover::before{
+    width :30%;
+}
